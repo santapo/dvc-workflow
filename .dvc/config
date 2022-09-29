@@ -1,2 +1,4 @@
+[core]
+    remote = santapo
 ['remote "santapo"']
-    url = ../gdrive:1_a7fkcZiI7-M_kYBf-6gqOQ79VrehWXC
+    url = gdrive://1_a7fkcZiI7-M_kYBf-6gqOQ79VrehWXC
