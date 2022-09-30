@@ -4,7 +4,7 @@ stages:
     cmd: python model.py
     deps:
     - path: dataset/titanic
-      md5: 991dfcf8b21784668b854d9cb8e7334f.dir
+      md5: 67ceb1689e0e53e6055b5ad397ac6b47.dir
       size: 93081
       nfiles: 3
     - path: model.py
@@ -12,5 +12,5 @@ stages:
       size: 5379
     outs:
     - path: models/sgd.sav
-      md5: c1f06f6d48ed5887fb3f839bbde18e0f
+      md5: d3837d0e9f8607cfd72f4fc1a0b67e9e
       size: 1257
