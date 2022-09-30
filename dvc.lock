@@ -1,0 +1,16 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python model.py
+    deps:
+    - path: dataset/titanic
+      md5: 991dfcf8b21784668b854d9cb8e7334f.dir
+      size: 93081
+      nfiles: 3
+    - path: model.py
+      md5: 7ad530dfd89e85f2a924af79d1489307
+      size: 5379
+    outs:
+    - path: models/sgd.sav
+      md5: c1f06f6d48ed5887fb3f839bbde18e0f
+      size: 1257

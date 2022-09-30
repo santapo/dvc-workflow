@@ -1,0 +1,8 @@
+stages:
+  train:
+    cmd: python model.py
+    deps:
+    - dataset/titanic
+    - model.py
+    outs:
+    - models/sgd.sav
